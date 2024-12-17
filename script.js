@@ -52,6 +52,7 @@ $( document ).ready(function() {
           let count = 0;
           // Max number of songs is 12
           const max_songs = 12;
+             console.log("Numero de canciones: " + num_of_tracks);
           while(count < max_songs && count < num_of_tracks){
             // Extract the id of the FIRST song from the data object
             let id = data.tracks.items[count].id;
